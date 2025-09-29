@@ -5,8 +5,8 @@ import ballerina/log;
 public function main() {
     io:println("Program started. Waiting for 1 minute...");
     
-    // Wait for 1 minute (60000 milliseconds)
-    error? result = sleep(60000);
+    // Wait for 1 minute (120000 milliseconds)
+    error? result = sleep(120000);
     if (result is error) {
         io:println("Error occurred during sleep: ", result.message());
         return;
