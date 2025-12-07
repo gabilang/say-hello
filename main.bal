@@ -13,7 +13,6 @@ public function main() {
     }
     
     log:printInfo("Hello, World! (logged after 1 minute)");
-    panic error("error: exit with 1");
 }
 
 function sleep(int millis) returns error? = @java:Method {
