@@ -2,7 +2,7 @@
 org = "gabilan"
 name = "say_hello"
 version = "0.1.0"
-distribution = "2201.12.9"
+distribution = "2201.14.2"
 
 [build-options]
 observabilityIncluded = true
